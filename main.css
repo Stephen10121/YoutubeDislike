@@ -1,0 +1,16 @@
+html body {
+  background: red;
+}
+
+#top-level-buttons-computed
+  ytd-button-renderer:nth-child(2)
+  a
+  yt-formatted-string::before {
+  content: "500";
+}
+/*
+[@id="text"]
+
+#text:nth-child(2)::before {
+  content: "wow";
+}*/
